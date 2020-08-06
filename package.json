@@ -1,0 +1,15 @@
+{
+  "name": "antipodes",
+  "main": "index.js",
+  "devDependencies": {
+    "jest": "^26.2.2",
+    "standard": "^14.3.4"
+  },
+  "scripts": {
+    "test": "jest test.js && standard",
+    "lint": "standard --fix"
+  },
+  "standard": {
+    "env": ["jest"]
+  }
+}
