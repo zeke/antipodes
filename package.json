@@ -1,5 +1,6 @@
 {
   "name": "antipodes",
+  "version": "1.0.0",
   "main": "index.js",
   "devDependencies": {
     "jest": "^26.2.2",
@@ -11,5 +12,9 @@
   },
   "standard": {
     "env": ["jest"]
-  }
+  },
+  "files": [
+    "index.js",
+    "text.js"
+  ]
 }
