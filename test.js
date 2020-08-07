@@ -26,3 +26,9 @@ test('supports anti-antipodes', () => {
   const input = { longitude: -50, latitude: 30 }
   expect(antipodes(antipodes(input))).toEqual(input)
 })
+
+test('"agafonkin" implementation', () => {
+  const input = { longitude: -73.951442, latitude: 40.698470 }
+  const output = { longitude: 106.048558, latitude: -40.698470 }
+  expect(antipodes(input, { implementation: 'agafonkin' })).toEqual(output)
+})
