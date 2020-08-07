@@ -4,8 +4,8 @@
   "main": "index.js",
   "repository": "https://github.com/zeke/antipodes",
   "devDependencies": {
-    "jest": "26.2.2",
-    "standard": "14.3.4"
+    "jest": "^26.2.2",
+    "standard": "^14.3.4"
   },
   "scripts": {
     "test": "jest test.js --coverage && standard",
